@@ -1,18 +1,21 @@
-##Global Holiday Planner
-#Overview:
+**Global Holiday Planner**
+
+**Overview:**
 
 This project combines data analysis, user input processing, and real-time currency conversion to offer personalized travel recommendations by creating a tool that helps users plan an international holiday based on various criteria, including population, country size, flag color preferences, and real-time exchange rates using data generated form two APIs
+
 The first API returns data about information(such as population, sq. m, flag colour etc) of selected countries. The second API generates the current exchange rate of the selected country in comparison to 1 USD.
+
 The 'Global Holiday Planner' empowers users to effortlessly plan their dream international getaway by seamlessly integrating real-time exchange rates. Users input their desired destination, gaining intriguing details about the country's population, size, and flag colors. As users enter their budget in USD, the project unfolds the magic by showcasing real-time exchange rates, allowing them to choose the perfect currency for a personalized international adventure.
 
-#Features
+**Features**
 Holiday Information: Retrieve detailed information about holidays for a selected country and date range.
 
 Country Details: Get comprehensive details about a country, including population, capital, and official languages.
 
 Currency Exchange Rates: Real-time currency conversion rates for effective travel planning.
 
-#Getting Started
+**Getting Started**
 Clone the repository to your local machine.
 git clone: https://github.com/Oluwatobioguntolu/Group-8-Python-Console-Application.git
 Install the required Python packages.
@@ -25,19 +28,19 @@ Run the application.
 Group-8-Python-Console-Application.py
 
 
-#APIs Used
+**APIs Used**
 Country Details API: ['https://restcountries.com/v3.1/name/' + country + '?fullText=true'] For more info, check: https://restcountries.com/
 
 Exchange Rate API: ['https://v6.exchangerate-api.com/v6/d6463bde9e2ea9ae97de9ad2/latest/USD'] For more info, check: https://www.exchangerate-api.com/
 
-#Usage
+**Usage**
 Choose a country and date range to fetch holiday information.
 
 Explore country details to enhance your travel knowledge.
 
 Check real-time currency exchange rates for accurate budgeting.
 
-#Team members and Contributions
+**Team members and Contributions**
 Team Lead:
 Oluwatobi Oguntolu - Sourced the two API keys used, wrote the codes needed to generate data from the APIs
 Team Members:
@@ -55,7 +58,7 @@ Maureen Nwobodo - contributed to the sourcing of the APIs and commented on the c
 
 Feel free to reach out to the team lead or any team member for questions or clarifications. Happy holiday planning! In this project, we are using two APIs to build a python application. The first API returns data about information of selected countries. The second API generates the current exchange rate of the s...
 
-#Conclusion:
+**Conclusion:**
 
 In wrapping up the Global Holiday Planner project, we have not just crafted a travel tool but a shared adventure in coding. Our collective efforts have given rise to a project that seamlessly weaves together data analysis, user input, and real-time currency conversion.
 
