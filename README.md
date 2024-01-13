@@ -9,6 +9,7 @@ The first API returns data about information(such as population, sq. m, flag col
 The 'Global Holiday Planner' empowers users to effortlessly plan their dream international getaway by seamlessly integrating real-time exchange rates. Users input their desired destination, gaining intriguing details about the country's population, size, and flag colors. As users enter their budget in USD, the project unfolds the magic by showcasing real-time exchange rates, allowing them to choose the perfect currency for a personalized international adventure.
 
 **Features**
+
 Holiday Information: Retrieve detailed information about holidays for a selected country and date range.
 
 Country Details: Get comprehensive details about a country, including population, capital, and official languages.
@@ -16,7 +17,9 @@ Country Details: Get comprehensive details about a country, including population
 Currency Exchange Rates: Real-time currency conversion rates for effective travel planning.
 
 **Getting Started**
+
 Clone the repository to your local machine.
+
 git clone: https://github.com/Oluwatobioguntolu/Group-8-Python-Console-Application.git
 Install the required Python packages.
 from pip._vendor import requests
@@ -29,11 +32,13 @@ Group-8-Python-Console-Application.py
 
 
 **APIs Used**
+
 Country Details API: ['https://restcountries.com/v3.1/name/' + country + '?fullText=true'] For more info, check: https://restcountries.com/
 
 Exchange Rate API: ['https://v6.exchangerate-api.com/v6/d6463bde9e2ea9ae97de9ad2/latest/USD'] For more info, check: https://www.exchangerate-api.com/
 
 **Usage**
+
 Choose a country and date range to fetch holiday information.
 
 Explore country details to enhance your travel knowledge.
@@ -41,6 +46,7 @@ Explore country details to enhance your travel knowledge.
 Check real-time currency exchange rates for accurate budgeting.
 
 **Team members and Contributions**
+
 Team Lead:
 Oluwatobi Oguntolu - Sourced the two API keys used, wrote the codes needed to generate data from the APIs
 Team Members:
