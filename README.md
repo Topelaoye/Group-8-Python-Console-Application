@@ -9,6 +9,8 @@ The first API returns data about information(such as population, sq. m, flag col
 
 The 'Global Holiday Planner' empowers users to effortlessly plan their dream international getaway by seamlessly integrating real-time exchange rates. Users input their desired destination, gaining intriguing details about the country's population, size, and flag colors. As users enter their budget in USD, the project unfolds the magic by showcasing real-time exchange rates, allowing them to choose the perfect currency for a personalized international adventure.
 
+
+
 **Features**
 
 
@@ -17,6 +19,8 @@ Holiday Information: Retrieve detailed information about holidays for a selected
 Country Details: Get comprehensive details about a country, including population, capital, and official languages.
 
 Currency Exchange Rates: Real-time currency conversion rates for effective travel planning.
+
+
 
 **Getting Started**
 
@@ -41,9 +45,13 @@ Group-8-Python-Console-Application.py
 
 **APIs Used**
 
-Country Details API: ['https://restcountries.com/v3.1/name/' + country + '?fullText=true'] For more info, check: https://restcountries.com/
+Country Details API: ['https://restcountries.com/v3.1/name/' + country + '?fullText=true'] 
+For more info, check: https://restcountries.com/
 
-Exchange Rate API: ['https://v6.exchangerate-api.com/v6/d6463bde9e2ea9ae97de9ad2/latest/USD'] For more info, check: https://www.exchangerate-api.com/
+Exchange Rate API: ['https://v6.exchangerate-api.com/v6/d6463bde9e2ea9ae97de9ad2/latest/USD'] 
+For more info, check: https://www.exchangerate-api.com/
+
+
 
 **Usage**
 
@@ -53,13 +61,15 @@ Explore country details to enhance your travel knowledge.
 
 Check real-time currency exchange rates for accurate budgeting.
 
+
+
 **Team members and Contributions**
 
-Team Lead:
+**Team Lead:**
 
 Oluwatobi Oguntolu - Sourced the two API keys used, wrote the codes needed to generate data from the APIs
 
-Team Members:
+**Team Members:**
 
 Khadijat Agboola - Contributed to the code, scenario and repository
 
@@ -74,6 +84,8 @@ Ifunanya Nicholas - Modified code such that it extracts the current currency abb
 Maureen Nwobodo - contributed to the sourcing of the APIs and commented on the code
 
 Feel free to reach out to the team lead or any team member for questions or clarifications. Happy holiday planning! In this project, we are using two APIs to build a python application. The first API returns data about information of selected countries. The second API generates the current exchange rate of the s...
+
+
 
 **Conclusion:**
 
